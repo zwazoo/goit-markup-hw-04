@@ -1,0 +1,32 @@
+.hero {
+    padding: 188px 0px;
+    background-color: var(--surface-hero);
+}
+
+.hero h1 {
+    max-width: 496px;
+    margin: 0 auto 48px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--surface-primary);
+}
+
+.hero button {
+    margin: 0 auto;
+    padding: 16px 32px;
+    display: block;
+    border-radius: 4px;
+    background: var(--brand-default);
+    color: var(--surface-primary);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.hero button:hover,
+.hero button:focus {
+    background: var(--brand-pressed);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,23 @@
+.team {
+    background-color: var(--surface-default);
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.members li {
+    flex: 1;
+    border-radius: 0 0 4px 4px;
+    background-color: var(--surface-primary);
+}
+
+.member-info {
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}

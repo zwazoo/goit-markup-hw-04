@@ -1,0 +1,51 @@
+.header {
+    border-bottom: 1px solid var(--accent-subtle);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-link {
+    padding: 24px 0;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--contrast-high);
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.contact-link {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: currentColor;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--brand-pressed);
+}
