@@ -4,12 +4,46 @@
     color: var(--surface-default);
 }
 
+.footer .container {
+    display: flex;
+    align-items: flex-start;
+}
+
 .footer-info {
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
     color: var(--surface-default);
+}
+
+.socials-list {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.socials-list a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--brand-default);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-list a:hover,
+.socials-list a:focus {
+    background-color: var(--success);
+}
+
+.socials-list svg {
+    fill: var(--surface-primary);
 }
