@@ -1,4 +1,4 @@
-.features ul {
+.features-list {
     display: flex;
     gap: 24px;
 }
@@ -7,7 +7,7 @@
     flex: 1;
 }
 
-.feature div {
+.feature-image {
     height: 112px;
     margin-bottom: 8px;
     padding: 24px;
@@ -19,7 +19,7 @@
     background: var(--surface-default);
 }
 
-.feature h3 {
+.feature-title {
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
