@@ -1,8 +1,10 @@
 .hero {
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 188px 0px;
     background:
         linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%),
-        url('../images/hero-bg.jpg') no-repeat center/cover;
+        url('../images/hero-bg.jpg') no-repeat center;
 }
 
 .hero h1 {

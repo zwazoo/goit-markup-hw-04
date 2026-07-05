@@ -8,6 +8,7 @@
 }
 
 .feature div {
+    height: 112px;
     margin-bottom: 8px;
     padding: 24px;
     display: flex;

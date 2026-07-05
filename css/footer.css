@@ -20,6 +20,11 @@
     color: var(--surface-default);
 }
 
+.socials-title {
+    font-weight: 500;
+    color: var(--surface-primary);
+}
+
 .socials-list {
     margin-top: 16px;
     display: flex;
@@ -45,5 +50,5 @@
 }
 
 .socials-list svg {
-    fill: var(--surface-primary);
+    fill: var(--surface-default);
 }
