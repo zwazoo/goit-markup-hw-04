@@ -49,6 +49,6 @@
     background-color: var(--success);
 }
 
-.socials-list svg {
+.socials-list-icon {
     fill: var(--surface-default);
 }

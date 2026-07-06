@@ -54,6 +54,6 @@
     background-color: var(--brand-pressed);
 }
 
-.member-socials svg {
+.member-socials-icon {
     fill: var(--surface-default);
 }
